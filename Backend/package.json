@@ -1,0 +1,35 @@
+{
+  "name": "bootcamp-2025-back",
+  "version": "1.0.0",
+  "description": "This is first class",
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "homepage": "https://github.com/Nac-H/Bootcamp-2025-Back#readme",
+  "bugs": {
+    "url": "https://github.com/Nac-H/Bootcamp-2025-Back/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nac-H/Bootcamp-2025-Back.git"
+  },
+  "license": "ISC",
+  "author": "Arturo Merchan <arturomechan20@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.18.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
